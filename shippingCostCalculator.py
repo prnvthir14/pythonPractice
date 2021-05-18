@@ -46,9 +46,15 @@ elif (package_weight_float > 10.0):
 else:
   print("invalid weight")
 
-print(groundCost,
-groundPremiumCost,
-droneCost)  
+print("Your shipping costs are:",  
+"**groundCost:",groundCost,
+"**groundPremiumCost:",groundPremiumCost,
+"**droneCost:",droneCost
+)  
+
+choice = input("Please type in your selection")  
+
+print("Your shipping method is:", choice)
 
 #
 # Test each class
